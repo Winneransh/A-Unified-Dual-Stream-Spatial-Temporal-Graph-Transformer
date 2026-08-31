@@ -38,8 +38,3 @@ Six publicly available EEG datasets were used across four neurological condition
 | **Proposed** | Dual-Stream GCN-Trans. + Fractal | UC San Diego | **99.56** |
 | **Proposed** | Dual-Stream GCN-Trans. + Fractal | UNM | **99.61** |
 | **Proposed** | Dual-Stream GCN-Trans. + Fractal | UI | **99.48** |
-
-## Code
-
-- `preprocessing.py` — EEG resampling, bandpass filtering, artifact rejection, and fractal/spectral feature extraction.
-- `5_class.ipynb` — dual-stream GCN-Transformer architecture, training, and evaluation pipeline.

@@ -1,17 +1,3 @@
-"""
-model.py
-
-Dual-Stream GCN-Transformer architecture, dataset loading, and training
-utilities for 5-class neurological disorder classification from EEG.
-
-Classes:
-    0 = Healthy/Control
-    1 = Cognitive Impairment (AD)
-    2 = Frontotemporal Dementia (FTD)
-    3 = Schizophrenia (SZ)
-    4 = Parkinson's OFF Medication (PD)
-"""
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
